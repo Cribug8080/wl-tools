@@ -1,10 +1,15 @@
-const config  = {
-    name:'wl-tools'
+import ADCF from "./src/vue/adcf.vue"
+import { dateFormat } from "./src/js/index.js"
+
+const VIEW = {
+    ADCF,
 }
 
-const getName = function(){
-    console.log(config.name)
-    return config.name
+const tools = {
+    dateFormat,
 }
 
-export default getName;
+export {
+    VIEW,
+    tools,
+};

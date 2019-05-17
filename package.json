@@ -1,6 +1,6 @@
 {
   "name": "wl-tools",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "wangli",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ynqc/toast.git"
+    "url": "git@github.com:Cribug8080/wl-tools.git"
   },
   "author": "wangli",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
 }
